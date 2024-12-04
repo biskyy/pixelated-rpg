@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: 634fa5204ffdd0f4bbf0f054da161d08
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - Base Bone
+    - Base Bone/Base
+    - Base Bone/Leg Bone L
+    - Base Bone/Leg Bone L/Sphere.003
+    - Base Bone/Leg Bone L/Subleg Bone L
+    - Base Bone/Leg Bone L/Subleg Bone L/Sphere.004
+    - Base Bone/Leg Bone R
+    - Base Bone/Leg Bone R/Sphere.001
+    - Base Bone/Leg Bone R/Subleg Bone R
+    - Base Bone/Leg Bone R/Subleg Bone R/Sphere.002
+    - Base Bone/Lower Body Bone
+    - Base Bone/Lower Body Bone/Sphere.005
+    - Base Bone/Lower Body Bone/Upper Body Bone
+    - Base Bone/Lower Body Bone/Upper Body Bone/Arm Bone L
+    - Base Bone/Lower Body Bone/Upper Body Bone/Arm Bone L/Sphere.007
+    - Base Bone/Lower Body Bone/Upper Body Bone/Arm Bone L/Subarm Bone L
+    - Base Bone/Lower Body Bone/Upper Body Bone/Arm Bone L/Subarm Bone L/Sphere.006
+    - Base Bone/Lower Body Bone/Upper Body Bone/Arm Bone R
+    - Base Bone/Lower Body Bone/Upper Body Bone/Arm Bone R/Sphere.009
+    - Base Bone/Lower Body Bone/Upper Body Bone/Arm Bone R/Subarm Bone R
+    - Base Bone/Lower Body Bone/Upper Body Bone/Arm Bone R/Subarm Bone R/Sphere.008
+    - Base Bone/Lower Body Bone/Upper Body Bone/Head Bone
+    - Base Bone/Lower Body Bone/Upper Body Bone/Head Bone/Sphere.010
+    - Base Bone/Lower Body Bone/Upper Body Bone/Sphere
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 0
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: player(Clone)
+      parentName: 
+      position: {x: -0.00000007301569, y: 0, z: 0.000000014901161}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Base Bone
+      parentName: player(Clone)
+      position: {x: -0, y: 0, z: -0.01}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Base
+      parentName: Base Bone
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Leg Bone L
+      parentName: Base Bone
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0.0008069853, y: -0.0002169541, z: 0.96570885, w: 0.25962618}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Sphere.003
+      parentName: Leg Bone L
+      position: {x: -0.0000000011920912, y: 0, z: -1.4567474e-10}
+      rotation: {x: 0.00080698525, y: -0.00021695426, z: 0.96570885, w: -0.25962612}
+      scale: {x: 0.009999999, y: 0.01, z: 0.01}
+    - name: Subleg Bone L
+      parentName: Leg Bone L
+      position: {x: -0.0000000011920958, y: 0.029913438, z: 5.8740166e-13}
+      rotation: {x: 0.0000006982931, y: 0.0008357687, z: 0.0008357398, w: 0.99999934}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Sphere.004
+      parentName: Subleg Bone L
+      position: {x: -0.000050011873, y: 0.000086636544, z: -6.0897976e-10}
+      rotation: {x: -0.00000012459626, y: 0.00000003337558, z: 0.9659258, w: -0.25881907}
+      scale: {x: 0.009999999, y: 0.01, z: 0.01}
+    - name: Leg Bone R
+      parentName: Base Bone
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: -0.00080708263, y: -0.00021697514, z: 0.96570885, w: -0.25962618}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Sphere.001
+      parentName: Leg Bone R
+      position: {x: -6.996194e-10, y: 0.000000011920928, z: -1.5152334e-10}
+      rotation: {x: -0.0008070828, y: -0.00021697528, z: 0.96570885, w: 0.25962612}
+      scale: {x: 0.009999999, y: 0.01, z: 0.01}
+    - name: Subleg Bone R
+      parentName: Leg Bone R
+      position: {x: 0.0000000011915947, y: 0.029913444, z: -8.348877e-16}
+      rotation: {x: 0.0000007009391, y: -0.00083576987, z: -0.0008357471, w: 0.99999934}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Sphere.002
+      parentName: Subleg Bone R
+      position: {x: 0.000050019025, y: 0.00008661508, z: -8.984067e-10}
+      rotation: {x: 0.000000027385516, y: 0.000000015071322, z: 0.9659258, w: 0.25881907}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Lower Body Bone
+      parentName: Base Bone
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sphere.005
+      parentName: Lower Body Bone
+      position: {x: 7.301569e-10, y: 0, z: -1.4901161e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Upper Body Bone
+      parentName: Lower Body Bone
+      position: {x: -0, y: 0.03, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm Bone L
+      parentName: Upper Body Bone
+      position: {x: -0, y: 0.03, z: 0}
+      rotation: {x: -0.00000012490898, y: 0.000000033469252, z: 0.9659259, w: 0.25881895}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: Sphere.007
+      parentName: Arm Bone L
+      position: {x: -0.00000001012705, y: -0.000000011920928, z: -1.4901702e-10}
+      rotation: {x: -0.00000012490896, y: 0.000000033469302, z: 0.9659259, w: -0.25881895}
+      scale: {x: 0.009999998, y: 0.01, z: 0.01}
+    - name: Subarm Bone L
+      parentName: Arm Bone L
+      position: {x: -0, y: 0.03, z: -3.5527135e-16}
+      rotation: {x: -2.960592e-15, y: -1.2434497e-14, z: -0.00000001490116, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Sphere.006
+      parentName: Subarm Bone L
+      position: {x: -0.000000034570693, y: 0.000000023841856, z: -5.9605465e-10}
+      rotation: {x: -0.00000012490895, y: 0.000000033469295, z: 0.9659259, w: -0.25881895}
+      scale: {x: 0.009999998, y: 0.01, z: 0.01}
+    - name: Arm Bone R
+      parentName: Upper Body Bone
+      position: {x: -0, y: 0.03, z: 0}
+      rotation: {x: 0.000000007581132, y: 0.0000000071736306, z: 0.9659259, w: -0.25881895}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: Sphere.009
+      parentName: Arm Bone R
+      position: {x: 0.000000013224201, y: -0.000000011920928, z: -1.490116e-10}
+      rotation: {x: 0.000000007581139, y: 0.000000007173637, z: 0.9659259, w: 0.25881895}
+      scale: {x: 0.009999997, y: 0.01, z: 0.01}
+    - name: Subarm Bone R
+      parentName: Arm Bone R
+      position: {x: 4.440892e-18, y: 0.03, z: 5.3290704e-17}
+      rotation: {x: 0.0000000024835205, y: -0.000000042439638, z: -0.000000029802319, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Sphere.008
+      parentName: Subarm Bone R
+      position: {x: 0.000000013113022, y: 0.0000000333786, z: -8.940711e-10}
+      rotation: {x: 0.000000047931888, y: 0.000000020556726, z: 0.9659259, w: 0.25881895}
+      scale: {x: 0.009999997, y: 0.009999999, z: 0.01}
+    - name: Head Bone
+      parentName: Upper Body Bone
+      position: {x: -0, y: 0.03, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sphere.010
+      parentName: Head Bone
+      position: {x: 7.301569e-10, y: 0.023999996, z: -1.4901161e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Sphere
+      parentName: Upper Body Bone
+      position: {x: 7.301569e-10, y: 0, z: -1.4901161e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Base Bone
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
